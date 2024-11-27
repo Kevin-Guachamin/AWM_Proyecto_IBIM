@@ -1,0 +1,32 @@
+.encabezado-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .encabezado-logo {
+    width: 125px;
+    height: auto;
+  }
+  
+  .encabezado-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #001f5b;
+  }
+  
+  .encabezado-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .encabezado-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
