@@ -1,0 +1,81 @@
+{
+  "estudiantes": [
+    {
+      "nombre": "juan",
+      "apellido": "perez",
+      "correo": "juan.perez@epn.edu.ec",
+      "codigo": "123456789",
+      "contrasenia": "contrasenia1",
+      "id": "1"
+    },
+    {
+      "id": "",
+      "nombre": "",
+      "correo": "",
+      "codigo": "kmkmm",
+      "contrasenia": ""
+    },
+    {
+      "id": "",
+      "nombre": "micaela tello",
+      "correo": "micaela.tello@epn.edu.ec",
+      "codigo": "123456789",
+      "contrasenia": "contrasenia"
+    },
+    {
+      "id": "",
+      "nombre": "micaela tello",
+      "correo": "micaela.tello@epn.edu.ec",
+      "codigo": "12345678",
+      "contrasenia": "contrasenia"
+    },
+    {
+      "id": "",
+      "nombre": "nayeli tello",
+      "correo": "nayeli.tello@epn.edu.ec",
+      "codigo": "55555555",
+      "contrasenia": "123456"
+    },
+    {
+      "id": "",
+      "nombre": "jose casas",
+      "correo": "jose@epn.edu.ec",
+      "codigo": "77777777",
+      "contrasenia": "password"
+    },
+    {
+      "id": "",
+      "nombre": "nayeli tello",
+      "correo": "nayeli.tello@epn.edu.ec",
+      "codigo": "99999999",
+      "contrasenia": "mihibi"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

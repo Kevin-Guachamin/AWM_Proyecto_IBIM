@@ -1,0 +1,138 @@
+{
+  "rutas": [
+    {
+      "id": "1",
+      "nombre": "CAPULI",
+      "recorrido": "Ruta1 (Sur): EPN, Ladrón de Guevara, Av. Velasco Ibarra, Av. Pedro Vicente Maldonado, Av. Napo, calle Corazón, redondel de la Villaflora, Av. Pedro Vicente Maldonado hasta la parada El Capulí del eco-vía."
+    },
+    {
+      "id": "2",
+      "nombre": "GUAMANÍ",
+      "recorrido": "Ruta2 (Sur): EPN, Ladrón de Guevara, Oriental, Trébol, Av. Rumihuañi, Av. Simón Bolívar, Av. Morán Valverde, Av. Maldonado hasta el antiguo peaje."
+    },
+    {
+      "id": "3",
+      "nombre": "MACHACHI",
+      "recorrido": "Ruta3 (Sur): EPN, Ladrón de Guevara, Av. Patria, Pérez Guerrero, Bolivia, Av. Universitaria, Av. Mariscal Sucre, Av. Morán Valverde, Av. Oyacoto, Av. Pedro Vicente Maldonado, Carr. Panamericana hasta el Parque de Machachi."
+    },
+    {
+      "id": "4",
+      "nombre": "QUITUMBE",
+      "recorrido": "Ruta4 (Sur): EPN, Ladrón de Guevara, Av. Patria, Pérez Guerrero, Bolivia, Av. Universitaria, Av. Mariscal Sucre, Michelena, Av. Teniente Hugo Ortiz, Av. Cardenal de la Torre, Guamaní, Cusubamba, Av. Mariscal Sucre hasta el terminal Quitumbe."
+    },
+    {
+      "id": "5",
+      "nombre": "ECUATORIANA",
+      "recorrido": "Ruta5 (Sur): EPN, Ladrón de Guevara, Av. Patria, Pérez Guerrero, Bolivia, Av. Universitaria, Av. Mariscal Sucre hasta la iglesia de la Ecuatoriana."
+    },
+    {
+      "id": "6",
+      "nombre": "ESTADIO DEL AUCAS",
+      "recorrido": "Ruta6 (Sur): EPN, Ladrón de Guevara, Av. Patria, Pérez Guerrero, Bolivia, Av. Universitaria, Av. Mariscal Sucre, Cbo. Luis Iturralde, Av. Teniente Hugo Ortiz, Cardenal de la Torre, Av. Marqués de Solanda, Av. Rumichaca, Estadio del Aucas."
+    },
+    {
+      "id": "7",
+      "nombre": "QUICENTRO SUR",
+      "recorrido": "Ruta7 (Sur): EPN, Oriental, Av. Napo, Villaflora, Alonso de Angulo, Av. Teniente Hugo Ortiz, Quicentro Sur."
+    },
+    {
+      "id": "8",
+      "nombre": "SAN ANTONIO DE PICHINCHA",
+      "recorrido": "Ruta8 (Norte): EPN, Oriental, Av. Napo, Villaflora, Alonso de Angulo, Teniente Hugo Ortiz, Quicentro Sur."
+    },
+    {
+      "id": "9",
+      "nombre": "CARCELEN 1",
+      "recorrido": "Ruta9 (Norte): EPN, Oriental, Av. Patria, Av. América, Av. 10 de Agosto, Av. La Prensa hasta Carcelén 1."
+    },
+    {
+      "id": "10",
+      "nombre": "CONDADO SHOPPING",
+      "recorrido": "Ruta10 (Norte): EPN, Ladrón de Guevara, Av. Patria, Av. América, Av. 10 de Agosto, Av. La Prensa hasta Condado Shopping."
+    },
+    {
+      "id": "11",
+      "nombre": "CARCELEN 2",
+      "recorrido": "Ruta11 (Norte): EPN, Ladrón de Guevara, Av. Patria, Av. América, Av. 10 de Agosto, Av. La Prensa hasta Carcelén 2."
+    },
+    {
+      "id": "12",
+      "nombre": "CARAPUNGO",
+      "recorrido": "Ruta12 (Norte): EPN, Ladrón de Guevara, Oriental, Av. Patria, Pérez Guerrero, Bolivia, Av. Universitaria, Av. Mariscal Sucre hasta la iglesia de la Carapungo."
+    },
+    {
+      "id": "13",
+      "nombre": "PANAMERICANA",
+      "recorrido": "Ruta13 (Norte): EPN, Oriental, Av. Patria, Pérez Guerrero, Bolivia, Av. Universitaria, Av. Mariscal Sucre hasta Panamericana."
+    },
+    {
+      "id": "14",
+      "nombre": "SANGOQUI",
+      "recorrido": "Ruta14 (Valles): EPN, Ladrón de Guevara, Occidental, Av. Rumichaca, San Juan hasta Sangoqui."
+    },
+    {
+      "id": "15",
+      "nombre": "QUINCHE",
+      "recorrido": "Ruta15 (Norte): EPN, Oriente, Trébol, Rumiñahui, Vía Quito hasta el Quinche."
+    },
+    {
+      "id": "16",
+      "nombre": "CUMBAYÁ",
+      "recorrido": "Ruta16 (Valle): EPN, Ladrón de Guevara, Oriental, Trébol, Av. Simón Bolívar, Tumbaco, Cumbayá."
+    },
+    {
+      "id": "17",
+      "nombre": "TROLE NORTE ESTACIÓN",
+      "recorrido": "Ruta17: EPN, Ladrón de Guevara, Av. Occidente, Bolívar, Pedro del Toro hasta Estación del Trole."
+    },
+    {
+      "id": "18",
+      "nombre": "ESTACIÓN EL RECREO",
+      "recorrido": "Ruta18 (Sur): EPN, Av. Pedro Maldonado hasta Estación El Recreo."
+    }
+  ],
+  "estudiantesRutas": [
+    {
+      "id_ruta": "6",
+      "nombre": "estudiante uno",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "estudiante dos",
+      "id_ruta": "3"
+    },
+    {
+      "id": "3",
+      "nombre": "estudiante tres",
+      "id_ruta": "5"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

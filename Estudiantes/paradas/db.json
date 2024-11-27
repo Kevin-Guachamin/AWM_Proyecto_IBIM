@@ -1,0 +1,76 @@
+{
+  "paradas": [
+    {
+      "id": "1",
+      "nombre": "Parada 1",
+      "direccion": "Dirección: Calle Principal 123"
+    },
+    {
+      "id": "2",
+      "nombre": "Parada 2",
+      "direccion": "Dirección: Calle Principal 123"
+    },
+    {
+      "id": "3",
+      "nombre": "Parada 3",
+      "direccion": "Dirección: Calle Principal 123"
+    },
+    {
+      "id": "4",
+      "nombre": "Parada 4",
+      "direccion": "Dirección: Calle Principal 123"
+    },
+    {
+      "id": "5",
+      "nombre": "Parada 5",
+      "direccion": "Dirección: Calle Principal 123"
+    }
+  ],
+  "estudiantesRutasParadas": [
+    {
+      "id": "1",
+      "nombre": "estudiante uno",
+      "id_ruta": "4",
+      "id_parada": "2"
+    },
+    {
+      "id": "2",
+      "nombre": "estudiante dos",
+      "id_ruta": "3",
+      "id_parada": "1"
+    },
+    {
+      "id": "3",
+      "nombre": "estudiante tres",
+      "id_ruta": "1",
+      "id_parada": "1"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

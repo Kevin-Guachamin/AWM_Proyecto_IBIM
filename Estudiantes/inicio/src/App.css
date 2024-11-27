@@ -1,0 +1,299 @@
+.container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container2 {
+  flex: 10;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.container3{
+  flex:5;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/*Estilos barra navegación*/
+.barraNav-container1 {
+  flex:1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.barraNav-container3 {
+  flex:1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.barraNav-image {
+  width:40%;
+  height: auto;
+  object-fit: cover;
+}
+.barraNav-container4 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  gap: 0;
+  flex-direction: column;
+  font-family: "arial";
+  padding-top: 10%;
+}
+.barraNav-container5 {
+  flex:7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+.barraNav-container7{
+  flex:1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.barraNav-inicio {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 100%;
+  height: 100px;
+  font-size: 33px;
+  align-self: center;
+  text-align: center;
+  border-color: var(--dl-color-theme-accent1);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 5px;
+}
+.barraNav-selRuta {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 100%;
+  height: 100px;
+  font-size: 33px;
+  align-self: center;
+  text-align: center;
+  border-color: var(--dl-color-theme-accent1);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 5px;
+}
+.barraNav-selParada {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 100%;
+  height: 100px;
+  font-size: 33px;
+  text-align: center;
+  border-color: var(--dl-color-theme-accent1);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 5px;
+}
+.barraNav-estadoRuta{
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 100%;
+  height: 100px;
+  font-size: 33px;
+  align-self: center;
+  text-align: center;
+  border-color: var(--dl-color-theme-accent1);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 5px;
+}
+.barraNav-text16 {
+  display: inline-block;
+}
+.barraNav-text17 {
+  display: inline-block;
+}
+.barraNav-text18 {
+  display: inline-block;
+  align-self: center;
+  text-align: justify;
+}
+.barraNav-text19 {
+  display: inline-block;
+}
+.barraNav-perfil {
+  display: inline-block;
+  text-align: left;
+  font-family: Arial;
+  font-size: 75%;
+  margin: 0%;
+  padding: 0%;
+}
+.barraNav-user {
+  display: inline-block;
+  text-align: left;
+  font-family: Arial;
+  font-size: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.barraNav-inicio-texto {
+  font-size: 70%;
+  display: inline-block;
+  align-self: center;
+  text-align: justify;
+  margin-left: 5%;
+}
+.barraNav-selRuta-texto{
+  font-size: 70%;
+  display: inline-block;
+}
+.barraNav-selParada-texto {
+  font-size: 70%;
+  display: inline-block;
+}
+.barraNav-estadoRuta-texto {
+  font-size: 70%;
+  display: inline-block;
+}
+
+/*Estilos texto Inicio*/
+#text-1, #text-2{
+    text-align: center;
+}
+
+/*Estilos Encabezado*/
+.encabezado-container1 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1%;
+}
+
+.encabezado-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1%;
+}
+
+.icono-salir {
+  width: 111px;
+  height: 83px;
+}
+
+.encabezado-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1%;
+}
+.logo-epn {
+  flex:1;
+  width: 10%;
+  align-self: left;
+  object-fit: cover;
+}
+.titulo-sistema {
+  flex:9;
+  align-self: center ;
+  color: rgb(9, 9, 39);
+  font-size: xx-large;
+  text-align: center;
+  font-family: "arial black";
+  text-transform: uppercase;
+}
+.boton-salir {
+  height: 66px;
+  width: auto;
+  align-self: right;
+  text-align: right;
+  border-color: none;
+  background-color: white;
+  border-color: white;
+}
+
+/* Estilos barra lateral */
+.barra-lateral {
+  width: 200px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #ccc;
+}
+
+.barra-lateral-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.barra-lateral-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.barra-lateral-name {
+  font-weight: bold;
+  color: #001f5b;
+}
+
+.barra-lateral-role {
+  color: #888;
+}
+
+.barra-lateral-menu {
+  width: 100%;
+}
+
+.barra-lateral-item:not(:first-child) {
+  border-top: 1px solid #ccc;
+}
+
+.barra-lateral-item {
+  display: block;
+  padding: 10px;
+  color: #001f5b;
+  text-decoration: none;
+  text-align: center;
+}
+
+.barra-lateral-item:hover {
+  background-color: #ddd;
+}
+
